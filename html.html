@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Parcelamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Matheus Luis</h1>
+    <div class="container">
+        <h2>Gerenciador de parcelas</h2>
+        <div class="input-group">
+            <label for="valor">Valor Total (R$):</label>
+            <input type="text" id="valor" placeholder="00,00">
+        </div>
+        <div class="input-group">
+            <label for="parcela">Parcela Mínima (R$):</label>
+            <input type="text" id="parcela" placeholder="Ex: 80,00" value="80,00">
+        </div>
+        <button onclick="calcularParcelas()">Calcular Parcelas</button>
+        <h2 id="resultado"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
